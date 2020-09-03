@@ -23,13 +23,13 @@ export default function Header(props) {
                   Stories
                 </Button>
               </li>
-              <li className={`nav-item${getNavLinkClass("/")}`}>
-                <Button className="nav-link" type="link" href="/">
+              <li className={`nav-item${getNavLinkClass("/signin")}`}>
+                <Button className="nav-link" type="link" href="/signin">
                   Sign In
                 </Button>
               </li>
-              <li className={`nav-item${getNavLinkClass("/")}`}>
-                <Button className="btn btn-outline-primary" href="/">
+              <li className={`nav-item${getNavLinkClass("/signup")}`}>
+                <Button className="btn btn-outline-primary" href="/signup">
                   Sign Up
                 </Button>
               </li>
