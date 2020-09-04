@@ -7,13 +7,16 @@ import IconTreasures from "assets/images/photo_camera-24px.svg";
 import IconCities from "assets/images/pin_drop-24px.svg";
 
 import numberFormat from "utils/formatNumber";
-
 export default function Hero(props) {
+  console.log(props.refMostPicked);
   function showMostPicked() {
-    window.scrollTo({
-      top: props.refMostPicked.current.offsetTop - 30,
-      behavior: "smooth",
-    });
+    if (props.refMostPicked.current) {
+      console.log(`test: ${props.refMostPicked}`);
+      window.scrollTo({
+        top: props.refMostPicked.current.offsetTop - 30,
+        behavior: "smooth",
+      });
+    }
   }
 
   return (
