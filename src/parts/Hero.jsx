@@ -11,7 +11,6 @@ export default function Hero(props) {
   console.log(props.refMostPicked);
   function showMostPicked() {
     if (props.refMostPicked.current) {
-      console.log(`test: ${props.refMostPicked}`);
       window.scrollTo({
         top: props.refMostPicked.current.offsetTop - 30,
         behavior: "smooth",

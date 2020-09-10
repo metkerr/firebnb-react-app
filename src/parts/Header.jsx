@@ -32,7 +32,11 @@ export default function Header(props) {
                 </Button>
               </li>
               <li className={`nav-item${getNavLinkClass("/signup")}`}>
-                <Button className="btn btn-outline-primary" href="/signup">
+                <Button
+                  className="btn btn-outline-primary"
+                  style={{ padding: "0px 30px" }}
+                  href="/signup"
+                >
                   Sign Up
                 </Button>
               </li>

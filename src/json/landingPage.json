@@ -79,114 +79,114 @@
   "categories": [
     {
       "_id": "asd1293uasdads1",
-      "name": "House with beauty backyard",
+      "name": "Backyard House",
       "items": [
         {
           "_id": "asd1293uasdads1",
-          "name": "PSW Antasari",
+          "name": "Yellow Sun",
+          "imageUrl": "/images/image-category-0.jpg",
+          "country": "Indonesia",
+          "city": "Bandung",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Green Barn",
           "imageUrl": "/images/image-category-1.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "country": "Malaysia",
+          "city": "Kuala Lumpur",
           "isPopular": true
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Kuretakeso",
+          "name": "Raminten",
           "imageUrl": "/images/image-category-2.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "country": "Indonesia",
+          "city": "Yogyakarta",
           "isPopular": false
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Arya Duta",
+          "name": "El Sueno",
           "imageUrl": "/images/image-category-3.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "country": "Bolivia",
+          "city": "Sucre",
           "isPopular": false
-        },
+        }
+      ]
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Executive Suite",
+      "items": [
         {
           "_id": "asd1293uasdads1",
-          "name": "Grand Dhika",
+          "name": "High Run",
           "imageUrl": "/images/image-category-4.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "country": "USA",
+          "city": "New York",
           "isPopular": false
-        }
-      ]
-    },
-    {
-      "_id": "asd1293uasdads1",
-      "name": "Hotels with large living room",
-      "items": [
+        },
         {
           "_id": "asd1293uasdads1",
-          "name": "PSW Antasari",
+          "name": "Blue Ocean",
           "imageUrl": "/images/image-category-5.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "country": "Indonesia",
+          "city": "Lombok",
           "isPopular": false
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Kuretakeso",
+          "name": "Porte Arte",
           "imageUrl": "/images/image-category-6.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
-          "isPopular": false
-        },
-        {
-          "_id": "asd1293uasdads1",
-          "name": "Arya Duta",
-          "imageUrl": "/images/image-category-7.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
-          "isPopular": false
-        },
-        {
-          "_id": "asd1293uasdads1",
-          "name": "Grand Dhika",
-          "imageUrl": "/images/image-category-8.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "country": "Italy",
+          "city": "Rome",
           "isPopular": true
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Fire Crown",
+          "imageUrl": "/images/image-category-7.jpg",
+          "country": "New Zealand",
+          "city": "Wellington",
+          "isPopular": false
         }
       ]
     },
     {
       "_id": "asd1293uasdads1",
-      "name": "Apartments with kitchen set",
+      "name": "Family Apartment",
       "items": [
         {
           "_id": "asd1293uasdads1",
-          "name": "PSW Antasari",
-          "imageUrl": "/images/image-category-9.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
-          "isPopular": false
-        },
-        {
-          "_id": "asd1293uasdads1",
-          "name": "Kuretakeso",
-          "imageUrl": "/images/image-category-10.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
-          "isPopular": false
-        },
-        {
-          "_id": "asd1293uasdads1",
-          "name": "Arya Duta",
-          "imageUrl": "/images/image-category-11.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "King Lodge",
+          "imageUrl": "/images/image-category-8.jpg",
+          "country": "USA",
+          "city": "San Fransisco",
           "isPopular": true
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Grand Dhika",
-          "imageUrl": "/images/image-category-12.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Little Utopia",
+          "imageUrl": "/images/image-category-9.jpg",
+          "country": "USA",
+          "city": "New York",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Choco Cabin",
+          "imageUrl": "/images/image-category-10.jpg",
+          "country": "USA",
+          "city": "Miami",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Sparking Fire",
+          "imageUrl": "/images/image-category-11.jpg",
+          "country": "USA",
+          "city": "Washington DC",
           "isPopular": false
         }
       ]
