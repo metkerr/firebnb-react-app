@@ -4,7 +4,8 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+@import "colorVariables";
 @import "functions";
 @import "variables";
 @import "mixins";
@@ -200,5 +201,48 @@ section {
         transform: scale(1);
       }
     }
+  }
+}
+
+.testimonial-hero,
+.testimonial-hero img {
+  width: 360px;
+  height: 400px;
+}
+
+footer {
+  border-top: 1px solid $gray-200;
+  padding: 50px;
+  font-size: 14px;
+  line-height: 21px;
+
+  .mr-52 {
+    margin-right: 52px;
+  }
+
+  .list-group-item {
+    padding: 0.3125rem 0;
+    border: 0;
+    &,
+    span {
+      color: $gray-500;
+      font-weight: 300;
+    }
+    a {
+      color: $gray-500;
+      @include hover-focus {
+        color: $gray-800;
+      }
+    }
+  }
+  .copyrights {
+    margin: 50px 0;
+    font-weight: 300;
+    color: $gray-500;
+  }
+
+  .image-footer {
+    position: absolute;
+    bottom: 10px;
   }
 }
