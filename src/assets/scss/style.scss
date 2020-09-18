@@ -113,6 +113,10 @@ section {
 .card {
   height: 100%;
 
+  &.bordered {
+    border: 1px solid $gray-200;
+  }
+
   .tag {
     z-index: 3;
     font-size: 0.875rem;
@@ -244,5 +248,22 @@ footer {
   .image-footer {
     position: absolute;
     bottom: 10px;
+  }
+}
+
+main {
+  .description-title {
+    padding-bottom: 10px;
+    font-weight: 600;
+  }
+  p {
+    color: $gray-500;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .amenities {
+    font-weight: 400;
+    font-size: 18px;
   }
 }

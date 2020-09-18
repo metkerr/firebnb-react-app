@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import Header from "parts/Header";
 
 import landingPage from "json/landingPage.json";
@@ -11,6 +11,11 @@ import Fade from "react-reveal/Fade";
 
 export default function LandingPage(props) {
   const refMostPicked = useRef();
+  useEffect(() => {
+    document.title = "Firebnb | Home";
+    window.scrollTo(0, 0);
+  });
+
   return (
     <>
       <Header {...props}></Header>

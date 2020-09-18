@@ -7,7 +7,7 @@ export default function Header(props) {
     return props.location.pathname === path ? " active" : "";
   };
   return (
-    <header className="spacing-sm">
+    <header className="spacing-sm" style={{ marginBottom: 40 }}>
       <div className="container">
         <nav
           className="navbar navbar-expand-lg navbar-light"
