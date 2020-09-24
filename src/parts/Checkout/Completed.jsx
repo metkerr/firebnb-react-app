@@ -1,0 +1,25 @@
+import React from "react";
+import Fade from "react-reveal/Fade";
+import CompletedIllustration from "assets/images/undraw_relaunch_day_902d.svg";
+
+export default function Completed() {
+  return (
+    <Fade>
+      <div className="container" style={{ marginBottom: 30 }}>
+        <div className="row justify-content-center text-center">
+          <div className="col-4">
+            <img
+              src={CompletedIllustration}
+              alt="completed checkout accommodation"
+              className="img-fluid"
+            />
+            <p className="text-gray-500 mt-5">
+              We will inform you via email later once the transaction has been
+              accepted
+            </p>
+          </div>
+        </div>
+      </div>
+    </Fade>
+  );
+}

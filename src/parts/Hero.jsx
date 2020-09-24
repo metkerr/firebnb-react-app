@@ -8,7 +8,6 @@ import IconCities from "assets/images/pin_drop-24px.svg";
 
 import numberFormat from "utils/formatNumber";
 export default function Hero(props) {
-  console.log(props.refMostPicked);
   function showMostPicked() {
     if (props.refMostPicked.current) {
       window.scrollTo({

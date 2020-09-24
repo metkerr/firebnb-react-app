@@ -11,7 +11,6 @@ import formatDate from "utils/formatDate";
 import iconCalendar from "assets/images/icons/today-24px.svg";
 
 export default function Date(props) {
-  console.log(props);
   const { value, placeholder, name } = props;
   const [isShowed, setIsShowed] = useState(false);
 

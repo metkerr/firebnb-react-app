@@ -6,6 +6,20 @@ export default function Header(props) {
   const getNavLinkClass = (path) => {
     return props.location.pathname === path ? " active" : "";
   };
+
+  if (props.isCentered) {
+    return (
+      <header className="spacing sm" style={{ marginBottom: 40 }}>
+        <div className="container">
+          <nav className="navbar navbar-expand-lg navbar-light">
+            <Button className="brand-text-icon mx-auto" href="" type="link">
+              Fire<span className="text-gray-900">bnb</span>
+            </Button>
+          </nav>
+        </div>
+      </header>
+    );
+  }
   return (
     <header className="spacing-sm" style={{ marginBottom: 40 }}>
       <div className="container">

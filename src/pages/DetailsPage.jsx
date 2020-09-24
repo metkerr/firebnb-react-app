@@ -15,7 +15,7 @@ import Fade from "react-reveal/Fade";
 export default class DetailsPage extends Component {
   componentDidMount() {
     document.title = "Details Page";
-    window.scrollTo(0, 0);
+    window.scroll(0, 0);
   }
   render() {
     const breadcrumb = [

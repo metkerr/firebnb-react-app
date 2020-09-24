@@ -12,8 +12,8 @@ import Fade from "react-reveal/Fade";
 export default function LandingPage(props) {
   const refMostPicked = useRef();
   useEffect(() => {
+    window.scroll(0, 0);
     document.title = "Firebnb | Home";
-    window.scrollTo(0, 0);
   });
 
   return (
