@@ -24,24 +24,6 @@ npm install
 npm start
 ```
 
-## **Screenshot**
+<br>
 
-### Landing Page
-
-![Landing Page](documentation_screenshot/ss1.JPG "Landing Page")
-
-### Accommodation Detail Page
-
-![Accommodation Detail Page](documentation_screenshot/ss2.JPG "Accommodation Detail Page")
-
-### Checkout Page - Booking information
-
-![Checkout Page - Booking information](documentation_screenshot/ss3.JPG "Checkout Page - Booking information")
-
-### Checkout Page - Payment
-
-![Checkout Page - Payment](documentation_screenshot/ss4.JPG "Checkout Page - Payment")
-
-### Checkout Page - Done
-
-![Checkout Page - Done](documentation_screenshot/ss5.JPG "Checkout Page - Done")
+### **[Firebnb Demo 🔗](https://firebnb-react-app.herokuapp.com/)**
