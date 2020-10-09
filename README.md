@@ -26,4 +26,4 @@ npm start
 
 <br>
 
-### **[Firebnb Demo 🔗](https://firebnb-react-app.herokuapp.com/)**
+### **[Firebnb Demo 🔗](https://firebnb-react-app.netlify.app)**
