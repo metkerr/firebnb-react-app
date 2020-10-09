@@ -19,7 +19,11 @@ function MostPicked(props, ref) {
                 </div>
                 <figure className="img-wrapper">
                   <img
-                    src={item.imageUrl}
+                    src={
+                      item.imageId[0]
+                        ? `${process.env.REACT_APP_FIREBNB_API}/${item.imageId[0].imageUrl}`
+                        : "/images/accommodationDefaultImage.jpg"
+                    }
                     alt={item.name}
                     className="img-cover"
                   />
@@ -30,7 +34,7 @@ function MostPicked(props, ref) {
                     className="stretched-link d-block text-white"
                     href={`/properties/${item._id}`}
                   >
-                    <h5>{item.name}</h5>
+                    <h5>{item.title}</h5>
                   </Button>
                   <span>
                     {item.city}, {item.country}

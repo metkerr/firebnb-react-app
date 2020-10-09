@@ -11,7 +11,7 @@ export default function Testimony({ data }) {
         <div className="col-auto" style={{ marginRight: 0 }}>
           <div className="testimonial-hero" style={{ margin: "30px 0 0 30px" }}>
             <img
-              src={data.imageUrl}
+              src={`${process.env.REACT_APP_FIREBNB_API}/${data.imageUrl}`}
               alt="Testimonial"
               className="position-absolute"
               style={{ zIndex: 1 }}
@@ -31,7 +31,7 @@ export default function Testimony({ data }) {
             {data.content}
           </h5>
           <span className="text-gray-500">
-            {data.familyName}, {data.familyOccupation}
+            {data.name}, {data.familyOccupation}
           </span>
 
           <div>

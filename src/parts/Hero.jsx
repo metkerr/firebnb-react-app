@@ -43,10 +43,10 @@ export default function Hero(props) {
             <div className="col-auto" style={{ marginRight: "30" }}>
               <img
                 src={IconTravelers}
-                alt={`${props.data.travelers} Travelers`}
+                alt={`${props.data.traveler} Travelers`}
               />
               <h6 className="mt-3">
-                {numberFormat(props.data.travelers)}
+                {numberFormat(props.data.traveler)}
                 <span className="text-gray-500 font-weight-light">
                   {" "}
                   travelers
@@ -56,10 +56,10 @@ export default function Hero(props) {
             <div className="col-auto" style={{ marginRight: "30" }}>
               <img
                 src={IconTreasures}
-                alt={`${props.data.treasures} Treasures`}
+                alt={`${props.data.treasure} Treasures`}
               />
               <h6 className="mt-3">
-                {numberFormat(props.data.treasures)}
+                {numberFormat(props.data.treasure)}
                 <span className="text-gray-500 font-weight-light">
                   {" "}
                   treasures

@@ -16,7 +16,15 @@ export default function FeaturedImage({ data }) {
               <Fade bottom>
                 <div className="card h-100">
                   <figure className="img-wrapper">
-                    <img src={item.url} alt={item.id} className="img-cover" />
+                    <img
+                      src={
+                        item.imageUrl
+                          ? `${process.env.REACT_APP_FIREBNB_API}/${item.imageUrl}`
+                          : ""
+                      }
+                      alt={`accomodation - ${item._id}`}
+                      className="img-cover"
+                    />
                   </figure>
                 </div>
               </Fade>
