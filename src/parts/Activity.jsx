@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "elements/Button";
 import Fade from "react-reveal/Fade";
 
 export default function Activity({ data }) {
@@ -13,11 +12,6 @@ export default function Activity({ data }) {
             return (
               <div className="item column-3 row-1" key={`activity-${index2}`}>
                 <div className="card">
-                  {item.isPopular && (
-                    <div className="tag">
-                      Popular <span className="font-weight-light">Choice</span>
-                    </div>
-                  )}
                   <figure className="img-wrapper" style={{ height: 165 }}>
                     <img
                       src={
@@ -30,13 +24,9 @@ export default function Activity({ data }) {
                     />
                   </figure>
                   <div className="meta-wrapper">
-                    <Button
-                      type={"link"}
-                      className="stretched-link d-block text-gray-800"
-                      href={`/properties/${item._id}`}
-                    >
+                    <span className="d-block text-gray-800">
                       <h5 className="h4">{item.name}</h5>
-                    </Button>
+                    </span>
                     <span className="text-gray-500">{item.type}</span>
                   </div>
                 </div>
