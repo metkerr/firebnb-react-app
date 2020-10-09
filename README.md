@@ -1,12 +1,9 @@
 <h2 align="center"> <strong>FIREBNB REACT APP</strong></h2>
-<hr>
 
 It's like Airbnb but warmer. The accommodation booking built on top of MERN Stack. <br>
 Go to [Firebnb Sysadmin & API Server Repo 🔗](https://github.com/metkerr/firebnb-server) to see the server source code.
 
 ## **Tech Stack**
-
----
 
 - REACT JS
 - SCSS
